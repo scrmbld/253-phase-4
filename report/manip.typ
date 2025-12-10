@@ -39,7 +39,7 @@ The first of the five tasks was treated as a tutorial. Since many users had not 
 
 // TODO: averages table
 
-- time measurements
+=== Time Results
 
 #figure(
   image("images/control_times.png", width: 60%),
@@ -52,7 +52,7 @@ The first of the five tasks was treated as a tutorial. Since many users had not 
 ) <experimenttimes>
 
 
-- grab measurements
+=== Grab Count Results
 
 #figure(
   image("images/control_grabs.png", width: 60%),
@@ -64,7 +64,7 @@ The first of the five tasks was treated as a tutorial. Since many users had not 
   caption: [Distribution of the number of grabs per task in the experiment condition.]
 ) <experimentgrabs>
 
-- survey responses
+=== Survey Results
 
 #figure(
   grid(
@@ -77,7 +77,9 @@ The first of the five tasks was treated as a tutorial. Since many users had not 
     image("images/q5_control.png"),
   ),
   caption: [Distribution of responses on survey questions for the control condition.]
-) <conotrolsurvey>
+) <controlsurvey>
+
+The results of the likert scale questions for the control condition surveys can be seen in @controlsurvey. The respondents seem to have a consensus, except when it comes to re-grabbing objects. Some found that it was necessary, and others did not, yielding a perfectly even split on the matter. For all of the other questions, the consensus is favorable to the control condition. When weighting positive statements with 1, and negative statements with $-1$, we come to an average combined score of 3.5.
 
 #figure(
   grid(
@@ -90,11 +92,17 @@ The first of the five tasks was treated as a tutorial. Since many users had not 
     image("images/q5_experiment.png"),
   ),
   caption: [Distribution of responses on survey questions for the experimental condition.]
-) <conotrolsurvey>
+) <experimentsurvey>
 
-Video analysis will be discussed in the #link(<analysis>, [Analysis]) section.
+The results of the likert scale questions for the experimental condition surveys can be seen in @experimentsurvey. Overall, users rated this version unfavorably. Regarding ease of moving objects to the desired position, it is possible that this question was misinterpreted as asking about only position by some users. Even so, the rating is still significantly lower than that of the control condition. The average combined score was $-2.17$.
+
+The videos will be discussed in the #link(<analysis>, [Analysis]) section. Links to all of the recordings can be found in the #link(<appendix>, [Appendix]).
 
 == Analysis <analysis>
+
+It is very clear from both the qualitative and quantitative metrics that the control version is superior. There is a large difference in both grab count and time data, and in the surverys. There are a variety of factors contributing to this result.
+
+The first is that the control condition is much more intuitive. This is not only because the control condition mirrors reality more closely, but also that mapping controller rotation to object rotation in the case of the experimental version did not line up with users' expectations.
 
 = Appendix <appendix>
 
@@ -112,4 +120,8 @@ Video analysis will be discussed in the #link(<analysis>, [Analysis]) section.
 
 - Do you have any other thoughts or comments that you would like to share?
 
-= Video List
+== Video List
+
+=== Control
+
+=== Experimental
